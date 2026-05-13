@@ -1,20 +1,19 @@
+import Header from "@/components/Header";
 import Hero from "@/components/Hero";
+import Services from "@/components/Skills";
 import About from "@/components/About";
-import Skills from "@/components/Skills";
-import Experience from "@/components/Experience";
 import Contact from "@/components/Contact";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
     <>
+      <Header />
       <Hero />
-      <div className="container">
-        <About />
-        <Skills />
-        <Experience />
-        <Contact />
-      </div>
-      <footer className="footer">© 2026 민유빈. All rights reserved.</footer>
+      <Services />
+      <About />
+      <Contact />
+      <Footer />
     </>
   );
 }
