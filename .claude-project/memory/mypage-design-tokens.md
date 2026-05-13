@@ -1,24 +1,29 @@
 ---
 name: mypage-design-tokens
-description: Purple-primary CSS custom property color system defined in :root
+description: Blue-primary CSS custom property color system (DMATE branding) defined in :root
 metadata:
   type: project
 created: 2026-05-13
+updated: 2026-05-13
 ---
 
 위치: `app/globals.css` `:root` 블록.
 
 디자인 토큰 (`:root` CSS 변수):
-- `--primary: #6c63ff` — 메인 퍼플 액센트
-- `--primary-light: #a29bfe` — 라이트 퍼플
-- `--dark: #2d2d2d` — 제목/강조 텍스트
-- `--gray: #6b7280` — 본문 텍스트
-- `--light: #f8f9fa` — 배경
-- `--border: #e5e7eb` — 카드 테두리
-- `#f0eeff` — 소프트 퍼플 틴트 (태그/아이콘 배경)
+- `--primary: #0057B8` — 메인 DMATE 블루
+- `--primary-dark: #003A85` — 다크 블루 (호버 등)
+- `--primary-light: #4D94FF` — 라이트 블루
+- `--accent: #00C4FF` — 시안 액센트
+- `--dark: #0A1628` — 제목/강조 텍스트
+- `--gray: #6B7280` — 본문 텍스트
+- `--light-gray: #F4F7FB` — 섹션 교대 배경
+- `--light: #F7FAFF` — 밝은 배경
+- `--white: #FFFFFF` — 흰색
+- `--border: #DDE5F0` — 카드 테두리
 
-**Why:** 새 UI 요소(버튼, 태그, 카드)는 임의 hex 값 대신 이 변수를 참조해야 시각적 일관성 유지.
+**Why:** 이전 퍼플(#6c63ff) 테마에서 DMATE 블루(#0057B8) 테마로 전환됨.
+새 UI 요소는 임의 hex 대신 이 변수를 참조해야 시각적 일관성 유지.
 
-**How to apply:** 인터랙티브/액센트 요소 → `var(--primary)`, 본문 → `var(--gray)`, 제목 → `var(--dark)`, 퍼플 틴트 배경 → `#f0eeff`.
+**How to apply:** 인터랙티브/액센트 → `var(--primary)`, 그라디언트 → `linear-gradient(90deg, var(--primary), var(--accent))`, 본문 → `var(--gray)`, 제목 → `var(--dark)`, 교대 섹션 배경 → `var(--light-gray)`.
 
 [[mypage-nextjs-stack]]

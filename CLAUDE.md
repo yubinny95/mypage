@@ -23,11 +23,13 @@ app/
   globals.css     — 전역 CSS (CSS 커스텀 프로퍼티, 공통 클래스)
   favicon.ico
 components/
-  Hero.tsx        — 히어로 섹션
+  Header.tsx      — 헤더 (sticky, 텍스트 로고, 네비게이션)
+  Hero.tsx        — 히어로 섹션 (배지, CTA 버튼)
+  Skills.tsx      — 기술 스택 섹션 (스킬 바)
+  Experience.tsx  — 경력 섹션 (그리드 카드)
   About.tsx       — 소개 섹션
-  Skills.tsx      — 기술 스택 섹션
-  Experience.tsx  — 경력 섹션
   Contact.tsx     — 연락처 섹션
+  Footer.tsx      — 푸터 (텍스트 로고, 링크)
 public/           — 정적 에셋
 logo.png          — 프로젝트 루트에 위치한 로고 이미지 (커밋됨)
 next.config.ts    — Next.js 설정
