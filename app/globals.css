@@ -566,6 +566,16 @@ body {
     gap: 40px;
   }
 
+  .expCard {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+
+  .skillsGrid,
+  .projectGrid {
+    grid-template-columns: 1fr;
+  }
+
   .footerInner {
     flex-direction: column;
     align-items: flex-start;
