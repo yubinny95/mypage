@@ -23,6 +23,11 @@
 정적 파일 단독 배포 가능 — GitHub Pages, Netlify 등에 `index.html` 하나만 업로드.
 GitHub remote: https://github.com/yubinny95/mypage.git (public)
 GitHub Pages URL (Settings → Pages → master / root 활성화 시): https://yubinny95.github.io/mypage/
+Vercel project: yubin-s-projects/mypage (dashboard: vercel.com/yubin-s-projects/mypage)
+Live URL: https://yubin-page.vercel.app
+`vercel.json` 포함됨 — Vercel 설정 파일.
+GitHub push → Vercel 자동 재배포 (GitHub 연동됨).
+수동 배포: `vercel --prod`
 
 ## Branch
 기본 브랜치: `master`
