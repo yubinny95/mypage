@@ -21,6 +21,12 @@
 
 ## Deployment
 정적 파일 단독 배포 가능 — GitHub Pages, Netlify 등에 `index.html` 하나만 업로드.
+GitHub remote: https://github.com/yubinny95/mypage.git (public)
+GitHub Pages URL (Settings → Pages → master / root 활성화 시): https://yubinny95.github.io/mypage/
 
 ## Branch
 기본 브랜치: `master`
+
+## Git
+GitHub CLI (`gh`) 사용 가능 — PR, issue, release 작업에 활용.
+Push: `git push origin master`
