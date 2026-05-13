@@ -29,6 +29,7 @@ components/
   Experience.tsx  — 경력 섹션
   Contact.tsx     — 연락처 섹션
 public/           — 정적 에셋
+logo.png          — 프로젝트 루트에 위치한 로고 이미지 (커밋됨)
 next.config.ts    — Next.js 설정
 tsconfig.json     — TypeScript 설정
 eslint.config.mjs — ESLint 설정
@@ -58,3 +59,4 @@ GitHub push → Vercel 자동 재배포 (Next.js 빌더 사용, GitHub 연동됨
 ## Git
 GitHub CLI (`gh`) 사용 가능 — PR, issue, release 작업에 활용.
 Push: `git push origin master`
+로컬 git identity 설정됨 (`user.name=민유빈`, `user.email=judy@dmate.kr`) — 글로벌 설정 없음, 이 레포에만 적용.

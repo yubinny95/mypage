@@ -1,17 +1,15 @@
-import Image from "next/image";
-
 export default function Footer() {
   return (
     <footer className="footer">
       <div className="footerInner">
-        <Image src="/logo.png" alt="DMATE" width={100} height={30} style={{ opacity: 0.7 }} />
+        <span className="footerLogo">민유빈</span>
         <div className="footerLinks">
-          <a href="#services" className="footerLink">서비스</a>
-          <a href="#about" className="footerLink">회사소개</a>
-          <a href="#contact" className="footerLink">연락처</a>
+          <a href="#skills" className="footerLink">기술 스택</a>
+          <a href="#experience" className="footerLink">경력</a>
+          <a href="#about" className="footerLink">소개</a>
           <a href="mailto:judy@dmate.kr" className="footerLink">judy@dmate.kr</a>
         </div>
-        <p className="footerCopy">© 2026 DMATE. All rights reserved.</p>
+        <p className="footerCopy">© 2026 민유빈. All rights reserved.</p>
       </div>
     </footer>
   );

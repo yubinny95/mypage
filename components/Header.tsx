@@ -1,17 +1,15 @@
-import Image from "next/image";
-
 export default function Header() {
   return (
     <header className="header">
       <div className="headerInner">
         <a href="#" className="logoWrap">
-          <Image src="/logo.png" alt="DMATE" width={120} height={36} priority />
+          <span className="logoText">민유빈</span>
         </a>
         <nav className="nav">
-          <a href="#services" className="navLink">서비스</a>
-          <a href="#about" className="navLink">회사소개</a>
-          <a href="#contact" className="navLink">연락처</a>
-          <a href="#contact" className="navLink navCta">문의하기</a>
+          <a href="#skills" className="navLink">기술 스택</a>
+          <a href="#experience" className="navLink">경력</a>
+          <a href="#about" className="navLink">소개</a>
+          <a href="#contact" className="navLink navCta">연락하기</a>
         </nav>
       </div>
     </header>
