@@ -6,6 +6,8 @@ metadata:
 created: 2026-05-13
 ---
 
+위치: `app/globals.css` `:root` 블록.
+
 디자인 토큰 (`:root` CSS 변수):
 - `--primary: #6c63ff` — 메인 퍼플 액센트
 - `--primary-light: #a29bfe` — 라이트 퍼플
@@ -19,4 +21,4 @@ created: 2026-05-13
 
 **How to apply:** 인터랙티브/액센트 요소 → `var(--primary)`, 본문 → `var(--gray)`, 제목 → `var(--dark)`, 퍼플 틴트 배경 → `#f0eeff`.
 
-[[mypage-pure-html-no-build]]
+[[mypage-nextjs-stack]]
